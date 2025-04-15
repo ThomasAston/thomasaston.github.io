@@ -5,8 +5,7 @@ permalink: /
 title: "Thomas Aston"
 ---
 
-# Hi, I'm Thomas 👋
-I'm a **PhD Researcher** at the University of Edinburgh, specialising in the use of numerical modelling and artificial intelligence technologies applied for analysing head impact biomechanics in sport.
+I'm a **PhD Researcher** at the University of Edinburgh, specialising in the use of numerical modelling and artificial intelligence technologies applied for analysing head impact mechanisms in sport.
 
 ## About Me
 Learn more [about me](/about/) and check out my [portfolio](/portfolio/).
