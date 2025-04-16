@@ -25,15 +25,3 @@ search: false
     border-color: #444; /* Match border to hover color */
     color: #fff; /* Keep text white */
 }
-.grid__item-teaser {
-  position: relative;
-  overflow: hidden;
-}
-
-.grid__item-teaser img {
-  display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 4 / 3; // Try 1 / 1 if you want square
-  object-fit: cover;
-}
