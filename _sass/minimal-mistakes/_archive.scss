@@ -219,16 +219,31 @@
     }
   }
 
-  .archive__item-teaser {
-    @include breakpoint($small) {
-      max-height: 200px;
-    }
+  // .archive__item-teaser {
+  //   @include breakpoint($small) {
+  //     max-height: 200px;
+  //   }
 
-    @include breakpoint($medium) {
-      max-height: 120px;
+  //   @include breakpoint($medium) {
+  //     max-height: 120px;
+  //   }
+  // }
+  .archive__item-teaser {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    display: block;
+    border-radius: $border-radius;
+  
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
     }
   }
+  
 }
+
 
 /*
    Features

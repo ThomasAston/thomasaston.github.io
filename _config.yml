@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Thomas Aston"
-  avatar           : "/assets/images/headshot_TA.jpg"
+  avatar           : "/assets/images/headshot_TA_compressed.jpg"
   bio              : "PhD Researcher in the School of Engineering at the University of Edinburgh."
   location         : "Edinburgh, Scotland"
   email            :
@@ -326,16 +326,3 @@ defaults:
       comments: # true
       share: true
       related: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
